@@ -26,10 +26,12 @@
     padding: 0px;
 }
 
+
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
+
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -97,6 +99,11 @@ main h1{
 
 main h2 {
     font-family: var(--font-android);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
 }
 
 main img {
